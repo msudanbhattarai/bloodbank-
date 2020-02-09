@@ -1,0 +1,66 @@
+body{
+    padding:0px;
+    
+}
+.row1{
+    background: linear-gradient(to right,red ,black);
+    margin:px;
+    padding:2px;
+   text-decoration:none;
+  position: relative;
+}
+.cmd3h{
+    font-size:25px;
+    text-align: center;
+    
+}
+.col8{
+    font-size:70px;
+    text-align: center;
+    color:rgb(236, 194, 87);
+    text-decoration:none;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+  }
+a:hover{
+    color:darkred;
+    text-decoration: none;
+}
+.navbar{
+    justify-content: flex-start;
+}
+#collapsenavbar{
+    text-align: center;
+}
+.but{
+    text-decoration:none; 
+}
+.butp{
+    margin-left:100px;
+    
+}
+.profileimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .lagout{
+     display:none;
+    
+ }
+  .logout:hover {
+    text-decoration:none;
+ }
+ .carousel-inner img {
+    width: 100%;
+    height: 80%;
+  }
+  .bgi{
+    background-image: url('bb.jpg');
+  }  
+ .toup
+ {
+     opacity: 0.1;
+ }

@@ -1,0 +1,20 @@
+if (move_uploaded_file($file_tem_loc,$file_store))
+   {
+    $query="UPDATE pblood SET pprofile='profile/$file_name'  WHERE puid=$puid ";
+    $data = mysqli_query($conn,$query);
+    if ($conn->query($query) === TRUE) {
+        echo '<script type="text/javascript">';
+     echo'alert("uploaded sucessfull ");';
+     echo 'window.location = "http://localhost/bb/editprofile.php";';
+     echo '</script>';
+         
+     
+     } else {
+         echo "Error updating record: " . $conn->error;
+     }
+
+   }
+   else
+   {
+       die("failed");
+   }
